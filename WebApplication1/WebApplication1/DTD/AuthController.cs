@@ -1,4 +1,4 @@
-using System.Security.Claims;
+/*using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 using Microsoft.AspNetCore.Mvc;
@@ -13,7 +13,7 @@ public class AuthController : Controller
 {
     /*
      * 
-     */
+     #1#
 
     private Claim[] userClaims =
     {
@@ -27,4 +27,4 @@ public class AuthController : Controller
     private SigningCredentials signingCredentials = new(key, SecurityAlgor);
     
     string 
-}
+}*/
